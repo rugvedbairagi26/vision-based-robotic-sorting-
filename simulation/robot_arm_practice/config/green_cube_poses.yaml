@@ -1,0 +1,57 @@
+# Green cube poses
+initial:
+  frame_id: base_link
+  child_frame_id: green_cube
+  translation:
+    x: -0.100
+    y: 0.080
+    z: 0.270
+  rotation:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000
+  dimensions:
+    x: 0.020
+    y: 0.020
+    z: 0.020
+
+
+gripper_relative:
+  frame_id: gripper_mount_link
+  child_frame_id: green_cube
+  position:
+    x: -0.004304
+    y: -0.007986
+    z: 0.083148
+  orientation_xyzw:
+    x: 0.028405
+    y: 0.710289
+    z: 0.028106
+    w: 0.702775
+
+gripper_relative:
+  frame_id: gripper_mount_link
+  child_frame_id: green_cube
+  position:
+    x: -0.004304
+    y: -0.007986
+    z: 0.083148
+  orientation_xyzw:
+    x: 0.028405
+    y: 0.710289
+    z: 0.028106
+    w: 0.702775
+
+green_bin_final:
+  frame_id: base_link
+  child_frame_id: green_cube
+  position:
+    x: -0.240
+    y: 0.000
+    z: 0.290
+  orientation_xyzw:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000

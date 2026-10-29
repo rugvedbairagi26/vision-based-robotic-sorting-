@@ -1,0 +1,103 @@
+home:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: 0.000
+    y: 0.000
+    z: 0.402
+  rotation:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000
+
+yellow_pre_grasp:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.030
+    y: -0.023
+    z: 0.286
+  rotation:
+    x: 0.239
+    y: -0.715
+    z: 0.208
+    w: 0.623
+
+yellow_grasp:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.030
+    y: -0.023
+    z: 0.286
+  rotation:
+    x: 0.239
+    y: -0.715
+    z: 0.208
+    w: 0.623
+
+yellow_lift:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.038
+    y: -0.028
+    z: 0.356
+  rotation:
+    x: 0.157
+    y: -0.469
+    z: 0.276
+    w: 0.824
+
+yellow_container_pre_release:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.146
+    y: -0.050
+    z: 0.319
+  rotation:
+    x: 0.100
+    y: -0.610
+    z: 0.128
+    w: 0.775
+
+yellow_release:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.146
+    y: -0.050
+    z: 0.319
+  rotation:
+    x: 0.100
+    y: -0.610
+    z: 0.128
+    w: 0.775    
+
+yellow_retreat:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: -0.084
+    y: -0.028
+    z: 0.369
+  rotation:
+    x: 0.067
+    y: -0.406
+    z: 0.148
+    w: 0.899                      
+
+home:
+  frame_id: base_link
+  child_frame_id: gripper_mount_link
+  translation:
+    x: 0.000
+    y: 0.000
+    z: 0.402
+  rotation:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000    

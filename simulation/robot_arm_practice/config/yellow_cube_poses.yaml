@@ -1,0 +1,53 @@
+yellow_initial:
+  frame_id: base_link
+  child_frame_id: yellow_cube
+  position:
+    x: -0.100
+    y: -0.080
+    z: 0.270
+  orientation_xyzw:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000
+
+yellow_attached:
+  frame_id: gripper_mount_link
+  child_frame_id: yellow_cube
+  position:
+    x: -0.003476
+    y: -0.003788
+    z: 0.091841
+  orientation_xyzw:
+    x: -0.238910
+    y: 0.714719
+    z: -0.208374
+    w: 0.623441
+
+yellow_attached:
+  frame_id: gripper_mount_link
+  child_frame_id: yellow_cube
+  position:
+    x: -0.003476
+    y: -0.003788
+    z: 0.091841
+  orientation_xyzw:
+    x: -0.238910
+    y: 0.714719
+    z: -0.208374
+    w: 0.623441   
+
+yellow_bin_final:
+  frame_id: base_link
+  child_frame_id: yellow_cube
+  position:
+    x: -0.240
+    y: -0.085
+    z: 0.290
+  orientation_xyz:
+    x: 0.000
+    y: 0.000
+    z: 0.000
+    w: 1.000    
+
+       
