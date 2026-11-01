@@ -43,7 +43,7 @@ Repository Structure
 vision-based-robotic-sorting-/
 ├── README.md
 ├── LICENSE
-├── .gitignore
+├── .gitignore 
 │
 ├── simulation/
 │   ├── README.md
